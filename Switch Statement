@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Conditional {
+    public static void main(String[] args){
+        Scanner st = new Scanner(System.in);
+      int num = 54;
+      switch(num ){
+          case 1 :
+              System.out.println("RED");
+              break;
+          case 2 :
+              System.out.println("Green");
+              break;
+          case 3:
+              System.out.println("Yellow");
+              break;
+          case 4 :
+              System.out.println("Purple");
+              break;
+          case 5 :
+              System.out.println("Blue");
+              break;
+          default:
+              System.out.println("Color not Exist");
+
+      }
+    }
+}
