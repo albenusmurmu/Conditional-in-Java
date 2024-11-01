@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Conditional {
+    public static void main(String[] args){
+        Scanner st = new Scanner(System.in);
+      int A=10, B = 15;
+      int marks = 10;
+
+      int lar = (A>B)?A:B;
+        System.out.println(lar);
+
+        String type = (A%2 == 0)?"Even":"Odd";
+        System.out.println(type);
+
+        String RC = (marks>=33)?"pass":"Fail";
+        System.out.println(RC);
+
+    }
+}
