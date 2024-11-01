@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Coditional {
+    public static void main(String[] args){
+        Scanner st = new Scanner(System.in);
+        System.out.println("Enter Value Of a");
+        int a = st.nextInt();
+        if(a%2 == 0){
+            System.out.println("a is Even");
+        }
+        else{
+            System.out.println(" a is Odd");
+        }
+    }
+}
